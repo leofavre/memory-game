@@ -1,0 +1,15 @@
+language: node_js
+notifications:
+  email: false
+node_js: 8
+script:
+  - npm test
+  - npm run build -- --deploy
+after_success:
+  - npm run send-coverage
+  - git config --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/*
+  - git fetch --tags
+  - npm run semantic-release
+branches:
+  except:
+    - /^v\d+\.\d+\.\d+$/
