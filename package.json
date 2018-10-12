@@ -42,5 +42,6 @@
   },
   "dependencies": {
     "@leofavre/memory-game-component": "^1.2.2"
-  }
+  },
+  "version": "0.1.0"
 }
