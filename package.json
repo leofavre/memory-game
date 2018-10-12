@@ -8,7 +8,8 @@
     "semantic-release": "lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo",
     "send-coverage": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "start": "agar start --no-root --no-scope",
-    "test": "agar test --no-root --no-scope"
+    "test": "agar test --no-root --no-scope",
+    "build": "agar build --no-root --no-scope"
   },
   "repository": {
     "type": "git",
