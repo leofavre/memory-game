@@ -1,5 +1,4 @@
 import '@leofavre/memory-game-component';
-import '@leofavre/flip-card-component';
 
 import getGitHubSelf from './services/getGitHubSelf.js';
 import getGitHubTopPals from './services/getGitHubTopPals.js';
