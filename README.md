@@ -1,6 +1,6 @@
 # Memory Game
 
-A memory game app for programmers written in Javascript, using all latest native browser capabilities for componentization.
+### A memory game app with GitHub cards and web components.
 
 ## Game loop
 
