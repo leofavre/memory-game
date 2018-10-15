@@ -1,6 +1,6 @@
 {
   "name": "memory-game",
-  "description": "Memory game app.",
+  "description": "A memory game app with GitHub cards and web components.",
   "author": "Leonardo Favre <leo@leofavre.com> (https://www.leofavre.com/)",
   "license": "MIT",
   "scripts": {
